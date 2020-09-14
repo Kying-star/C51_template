@@ -3,7 +3,10 @@
     {
       "name": "Keil",
       "compilerPath": "${workspaceFolder}\\.vscode\\compile.bat",
-      "includePath": ["${workspaceFolder}/**", "D:/keil4C51/C51/INC/**"],
+      "includePath": [
+        "${workspaceFolder}/**",
+        "D:/keil4C51/C51/INC/**" // 在这里更改keil保存路径 然后在 compile.bat文件中更改keil保存路径
+      ],
       "defines": [
         "_DEBUG",
         "UNICODE",
